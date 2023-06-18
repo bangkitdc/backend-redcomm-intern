@@ -1,5 +1,9 @@
 # Backend
 
+<p align="center">
+    <img src="https://github.com/bangkitdc/backend-redcomm-intern/blob/main/assets/be-vid.gif" width=700>
+</p>
+
 ## Description
 Nature Social is an application that allows users to search for comments related to nature. It provides pagination functionality to display the comments in smaller, manageable chunks. Additionally, it incorporates debounce search to reduce the frequency of API calls and improve performance.
 
