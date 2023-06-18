@@ -31,5 +31,9 @@ php artisan serve
 php artisan test
 ```
 
+<p align="center">
+    <img src="https://github.com/bangkitdc/backend-redcomm-intern/blob/main/assets/be-img.jpg" width=700>
+</p>
+
 ## Copyright
 2023 © bangkitdc. All Rights Reserved.
