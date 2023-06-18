@@ -1,8 +1,8 @@
 # Backend
 
-<p align="center">
+<div align="center">
     <img src="https://github.com/bangkitdc/backend-redcomm-intern/blob/main/assets/be-vid.gif" width=700>
-</p>
+</div>
 
 ## Description
 Nature Social is an application that allows users to search for comments related to nature. It provides pagination functionality to display the comments in smaller, manageable chunks. Additionally, it incorporates debounce search to reduce the frequency of API calls and improve performance.
@@ -31,9 +31,9 @@ php artisan serve
 php artisan test
 ```
 
-<p align="center">
+<div align="center">
     <img src="https://github.com/bangkitdc/backend-redcomm-intern/blob/main/assets/be-img.jpg" width=700>
-</p>
+</div>
 
 ## Copyright
 2023 © bangkitdc. All Rights Reserved.
