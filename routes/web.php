@@ -18,6 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+/* API for fetch all comments */
 Route::get('/comments', [CommentsController::class, 'index']);
 
+/* API for fetch searched comments using query */
 Route::get('/comments/search', [CommentsController::class, 'search']);

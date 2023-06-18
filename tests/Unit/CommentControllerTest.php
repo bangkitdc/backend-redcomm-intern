@@ -21,6 +21,10 @@ class CommentControllerTest extends TestCase
     }
 
     use RefreshDatabase;
+    
+    /**
+     * Test pagination, 10 per page
+     */
 
     public function testIndex()
     {
@@ -65,6 +69,9 @@ class CommentControllerTest extends TestCase
         $response->assertJsonCount(10, 'data');
     }
 
+    /**
+     * Test search with query
+     */
     public function testSearch()
     {
         // Create test comments
@@ -109,6 +116,9 @@ class CommentControllerTest extends TestCase
         $response->assertJsonCount(10, 'data');
     }
 
+    /**
+     * Test search with query random (no data in db)
+     */
     public function testSearchNoData()
     {
         // Create test comments
